@@ -67,6 +67,8 @@
     </div>
 </footer>
 
+
+
 <script src="{{asset('dist/js/vendor/jquery.js')}}"></script>
 <script src="{{asset('dist/js/vendor/app.js')}}"></script>
 <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
