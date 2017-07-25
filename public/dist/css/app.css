@@ -1,0 +1,280 @@
+.top-bar, .top-bar ul {
+    background-color:rgba(0,0,0,0.88);
+    border-bottom: 5px solid rgba(0, 0, 0, 0.38);;
+}
+
+.top-bar {
+    padding: 20px 100px;
+}
+.top-bar a{
+	color: white;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size:22px;
+  margin-top:20px;
+}
+.top-bar-right .fa{
+	font-size:30px!important;
+}
+.top-bar a:hover{
+	text-decoration: underline;
+}
+
+
+
+/*HERO SECTION*/
+section.hero {
+    height: 70vh;
+    background: #3d3d3d url(../img/2.jpg) center center no-repeat;
+    background-size: cover;
+    margin-bottom:80px;
+}
+
+.hero h2{
+  color: white;
+  font-family:'Caveat Brush',cursive;
+  font-size:65px;
+
+}
+.hero button{
+  margin-top:50px;
+  font-family:'times-new-roman-italic';
+  font-size:25px!important;
+
+}
+
+/*product card*/
+
+.item-wrapper {
+  padding: 20px;
+  border:1px solid #b3b3b3;
+  border-radius: 7px;
+  box-shadow: 2px 3px 3px  rgba(77,55,55,0.4);
+  margin-top: 40px;
+}
+.item-wrapper:hover .img-wrapper img {
+  -webkit-filter: grayscale(0);
+}
+.item-wrapper:hover .img-wrapper .add-to-cart {
+  bottom: 0;
+}
+
+.img-wrapper {
+  margin-bottom: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.img-wrapper .add-to-cart {
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  background-color: #333;
+  padding: 16px 8px;
+  bottom: -50px;
+  position: absolute;
+  z-index: 2;
+  color: #fff;
+  margin: 0 auto;
+  border: none;
+  box-shadow: none;
+}
+.img-wrapper .add-to-cart:hover {
+  background-color: #a4191a;
+}
+.img-wrapper img {
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  /*-webkit-filter: grayscale(1);*/
+  width: 100%;
+}
+body {
+  font-family:'times-new-roman-italic';
+}
+h2 {
+  color:#a4191a;
+}
+h3 {
+  font-size: 20px;
+}
+
+
+p {
+  color: #888;
+  font-size: 13px;
+  margin-bottom: 0;
+}
+a {
+  color: #a4191a;
+  text-decoration: none;
+}
+
+.main-column {
+  margin-bottom:50px;
+  margin-top:50px;
+}
+.button {
+  background-color: #a4191a!important;
+ 
+}
+
+
+/*Footer*/
+
+.full-width {
+  max-width: 1400px;
+ margin-bottom:0px;
+}
+
+footer {
+  background-color: #3c4d58;
+  text-align: center;
+  color: #fff;
+  height: 10vh;
+  margin-top:80px;
+  padding-bottom:0px;
+}
+footer h2 {
+  margin-top:25px;
+  font-size: 30px;
+  font-family: 'Gloria Hallelujah', cursive;
+  color:#fff;
+  float:left;
+}
+footer h3 {
+  margin-top:30px;
+  font-size: 20px;
+  font-family:'times-new-roman-italic';
+  color:#999;
+  float:ritgh;
+}
+footer a {
+  margin-top:30px;
+  font-size: 20px;
+  font-family:'times-new-roman-italic';
+  color:#999;
+  float:ritgh;
+}
+
+footer p {
+  font-size: 30px;
+  font-family: 'Gloria Hallelujah', cursive;
+  color:#a4191a;
+  float:left;
+}
+
+.footer h4 {
+  color: #fff;
+  font-size: 1em;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 2.5rem;
+}
+.footer p, .footer a {
+  font-weight: 300;
+  font-size: .8em;
+  color: #fff;
+}
+
+@media only screen and (min-width: 40.063em) {
+  .footer .columns:nth-child(n+2) {
+    border-left: 1px solid #b3b3b3;
+    min-height: 280px;
+  }
+}
+.footer-links {
+  list-style-type: none;
+}
+.footer-links li {
+  margin-top: .5em;
+}
+.price-tag{
+	font-size: 46px;
+	color: #777;
+}
+.subtitle-tag{
+	font-size: 46px;
+	color: #777;
+}
+.main-title-tag{
+	font-size: 46px;
+	color: #b90204;
+}
+.text-main {
+padding-top:200px;
+}
+
+.subtitle-tag:before {                    
+    display:inline-block;
+    height: 1px;
+    background-color: #b90204 ;
+    content: " ";               
+    width: 120px;
+    margin-right:20px;
+    margin-bottom: 8px;
+    opacity:0.8;
+}
+
+.subtitle-tag:after {                    
+    display:inline-block;
+    height: 1px;
+    background-color: #b90204 ;
+    content: " ";               
+    width: 120px;
+    margin-left:20px;
+    margin-bottom: 8px;
+    opacity:0.8;
+}
+.title-tag{
+	font-size: 22px;
+	color: #a4191a;
+}
+
+.brand-title{
+  font-size: 30px;
+  padding-top: 10px;
+}
+
+.shoes{
+  margin-top:70px;
+}
+.shipping{
+  margin-top:90px;
+  margin-bottom:90px;
+}
+.payment{
+  margin-top:125px;
+  margin-bottom:125px;
+}
+
+.cart h3{
+  margin-top:20px;
+  margin-bottom:20px;
+  font-size:30px;
+}
+
+.cart .button {
+  margin-bottom:95px;
+}
+.cart a{
+  text-align:center;
+  margin-left:50%;
+  font-size:18px;
+  margin-top:15px;
+}
+.logo {
+	float: left;
+  height:90px;
+  width:90px;
+
+}
+
+.logo-title a {
+  float:left;
+   font-size:45px!important;
+    color:#fff!important;
+    font-family: 'Gloria Hallelujah', cursive!important;
+}
+.logo-title p {
+  float:left;
+   font-size:45px!important;
+    color:#a4191a!important;
+    font-family: 'Gloria Hallelujah', cursive;
+}
