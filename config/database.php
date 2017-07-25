@@ -1,10 +1,10 @@
 <?php
-
+/*
 define('RDS_HOSTNAME', $_SERVER['RDS_HOSTNAME']);
 define('RDS_USERNAME', $_SERVER['RDS_USERNAME']);
 define('RDS_PASSWORD', $_SERVER['RDS_PASSWORD']);
 define('RDS_DB_NAME', $_SERVER['RDS_DB_NAME']);
-
+*/
 return [
 
     /*
@@ -61,11 +61,11 @@ return [
 
         'pgsql' => [
             'driver' => 'pgsql',
-            'host' => RDS_HOSTNAME,
+            'host' => env('DB_HOST', '127.0.0.1'),
             'port' => env('DB_PORT', '5432'),
-            'database' => RDS_DB_NAME,
-            'username' => RDS_USERNAME,
-            'password' => RDS_PASSWORD,
+            'database' => env('DB_DATABASE', 'forge'),
+            'username' => env('DB_USERNAME', 'forge'),
+            'password' => env('DB_PASSWORD', ''),
             'charset' => 'utf8',
             'prefix' => '',
             'schema' => 'public',
