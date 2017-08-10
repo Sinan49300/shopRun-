@@ -19,7 +19,7 @@ class CreateAddressesTable extends Migration
             $table->string('city');
             $table->integer('zip');
             $table->string('country');
-            $table->number('phone');
+            $table->string('phone');
             $table->timestamps();
         });
     }
